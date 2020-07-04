@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "219704230512",
+    "firebase_url": "https://jengkonangapp.firebaseio.com",
+    "project_id": "jengkonangapp",
+    "storage_bucket": "jengkonangapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219704230512:android:04894d5906ad1b01942ab5",
+        "android_client_info": {
+          "package_name": "com.example.jengkonangapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219704230512-ttn97b0gvlmd8udese4o4ugnljl8806r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jengkonangapp",
+            "certificate_hash": "2235ba92450638e43041ac8badfe46fe59df5615"
+          }
+        },
+        {
+          "client_id": "219704230512-im6bf221nnokeoag228osbbka3jk1alb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJhXO8IqwTW87WLUGsbPsFBRV0C8w4YJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219704230512-im6bf221nnokeoag228osbbka3jk1alb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

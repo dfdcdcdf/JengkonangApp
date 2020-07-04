@@ -1,0 +1,17 @@
+<resources>
+    <string name="explore">explore</string>
+    <string name="dashboard">DASHBOARD</string>
+    <string name="profile">PROFILE</string>
+    <string name="app_jegkonang">Jengkonang App</string>
+    <string name="app_name">Jengkonang App</string>
+    <string name="administrasi1">Administrasi</string>
+    <string name="informasi1">Informasi</string>
+    <string name="laporan1">Laporan</string>
+    <string name="jadwalronda1">Jadwal Ronda</string>
+    <string name="kritikk">Kritik Saran</string>
+    <string name="wisata">Wisata</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="abouttttt">HALAMAN ABOUT</string>
+    <string name="stringprofileee">PROFILE</string>
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jadwalronda">
+    <ImageView
+        android:id="@+id/bar_ronda"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:src="@drawable/bar_jadwal_ronda">
+    </ImageView>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_marginTop="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/kotak_senin"
+                    android:layout_width="match_parent"
+                    android:background="#fff"
+                    android:layout_height="180dp"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/jadwal_senin"
+                    />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:background="#fff"
+                    android:layout_height="180dp"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/jadwal_selasa" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <LinearLayout
+                android:layout_marginTop="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:background="#fff"
+                    android:layout_height="180dp"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/jadwal_rabu" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:background="#fff"
+                    android:layout_height="180dp"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/jadwal_kamis" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:background="#fff"
+                    android:layout_height="180dp"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/jadwal_jumat" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:background="#fff"
+                    android:layout_height="180dp"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/jadwal_sabtu" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:background="#fff"
+                    android:layout_height="180dp"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/jadwal_minggu" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>
+
