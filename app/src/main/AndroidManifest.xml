@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.jengkonangapp">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET"/>
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/administrasi"
@@ -12,7 +17,6 @@
         <activity android:name=".list_informasi"></activity>
         <activity android:name=".laporan" />
         <activity android:name=".jadwalronda" />
-        <activity android:name=".laporan" />
         <activity android:name=".lorong_blothong" />
         <activity android:name=".informasi_layout" />
         <activity android:name=".administrasi1" />
